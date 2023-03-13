@@ -4518,7 +4518,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  /* padding: 0.5rem 1rem;  */
+}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -4535,8 +4536,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.2875rem;
-  padding-bottom: 0.2875rem;
+  /* padding-top: 0.2875rem; */
+  /* padding-bottom: 0.2875rem; */
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -7731,7 +7732,9 @@ button.bg-dark:focus {
 
 .pr-3,
 .px-3 {
-  padding-right: 1rem !important; }
+  padding-right: 1rem !important;
+  margin-top: 3vw; 
+  margin-bottom: 3vw; }
 
 .pb-3,
 .py-3 {
@@ -12217,26 +12220,67 @@ body {
 
 .section-1 {
   background-size: contain;
+  /* background-position: bottom left 15vw;
+  padding: 3vw 3vw; */
   background-position: bottom left 15vw;
-  padding: 15vw 0vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
   background-repeat: no-repeat; }
 
 .section-2 {
   background-size: contain;
+  /* background-position: top right 10vw;
+  padding: 3vw 3vw; */
   background-position: top right 10vw;
-  padding: 5vw 0vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  margin-bottom: 3vw;
   background-repeat: no-repeat; }
 
 .section-3 {
   background-size: contain;
+  /* background-position: bottom left 15vw;
+  padding: 3vw 3vw; */
   background-position: bottom left 15vw;
-  padding: 15vw 0vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
   background-repeat: no-repeat; }
 
 .section-4 {
   background-size: contain;
-  background-position: bottom left 25vw;
-  padding: 10vw 0vw;
+  /* background-position: bottom left 10vw;
+  padding: 3vw 3vw; */
+  background-position: top right 10vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  margin-bottom: 3vw;
+  background-repeat: no-repeat; }
+
+.section-5 {
+  background-size: contain;
+  /* background-position: bottom left 15vw;
+  padding: 3vw 3vw; */
+  background-position: bottom left 15vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  background-repeat: no-repeat; }
+
+.section-6 {
+  background-size: contain;
+  /* background-position: bottom left 10vw;
+  padding: 3vw 3vw; */
+  background-position: top right 10vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  background-repeat: no-repeat; }
+
+.section-7 {
+  background-size: contain;
+  /* background-position: bottom left 10vw;
+  padding: 3vw 3vw; */
+  background-position: bottom left 10vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
   background-repeat: no-repeat; }
 
 .cta-back {
@@ -12252,7 +12296,7 @@ body {
 .section-cta {
   background-size: contain;
   background-position: bottom right 20vw;
-  padding: 20vw 0;
+  padding: 10vw 0;
   background-repeat: no-repeat; }
 
 @media only screen and (max-width: 768px) {
@@ -12494,7 +12538,7 @@ a.btn.btn-contact-us {
 
 .footer-logo {
   width: 130px;
-  margin-top: -57.5px; }
+  margin-top: -130px; }
 
 .copyright-section {
   background-color: #2c3e50;
