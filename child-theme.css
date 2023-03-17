@@ -12685,3 +12685,9 @@ body .gform_wrapper .gform_footer input[type="submit"] {
   padding: 10px;
   background-color: #ffdede;
 }
+
+#atlwdg-trigger {
+  width: 120px !important;
+  height: 45px !important;
+  font-size: 20px !important;
+}
