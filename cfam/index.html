@@ -8,27 +8,33 @@
         background-image: url("CAT2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        font-family: Arial, sans-serif;
       }
       
       /* Style for title block */
       .title-block {
-        background-color: white;
-        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 40px 20px;
         margin: 50px auto;
         max-width: 800px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
       }
       
       /* Style for title */
       h1 {
         font-size: 36px;
         margin-bottom: 10px;
+        color: #333;
+        text-align: center;
       }
       
       /* Style for subtitle */
       h2 {
         font-size: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        color: #666;
+        text-align: center;
       }
       
       /* Style for paragraph */
@@ -36,6 +42,27 @@
         font-size: 18px;
         line-height: 1.5;
         margin-bottom: 20px;
+        color: #333;
+      }
+      
+      /* Style for button */
+      #atlwdg-trigger {
+        width: 100%;
+        max-width: 272px;
+        height: 30px;
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #0072c6;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      #atlwdg-trigger:hover {
+        background-color: #005ba3;
       }
     </style>
   </head>
@@ -45,8 +72,11 @@
       <h2>Log any problems that you might have.</h2>
       <p>The information will be logged directly into the CFAM operational system and be attended to by the projects department.</p>
       <p>For urgent issues, contact Bartho Pasch at (+27) 63 642 6371 </p>
+      
+      <!-- Jira issue collector button -->
+      <script type="text/javascript" src="https://cfam-process.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/6i46lu/b/8/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=87607a94"></script>
     </div>
 
-    <script type="text/javascript" src="https://cfam-process.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/6i46lu/b/8/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=87607a94"></script>
+    
   </body>
 </html>
